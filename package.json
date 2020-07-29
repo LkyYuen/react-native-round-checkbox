@@ -1,0 +1,40 @@
+{
+  "name": "react-native-round-checkbox",
+  "title": "React Native Round Checkbox",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LkyYuen/react-native-round-checkbox.git",
+    "baseUrl": "https://github.com/LkyYuen/react-native-round-checkbox"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "LkyYuen",
+    "email": "lkylau96@email.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^7.0.0"
+  }
+}
