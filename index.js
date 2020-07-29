@@ -44,13 +44,13 @@ const RoundCheckBox = props => {
     }
 
     return (
-        <TouchableWithoutFeedback hitSlop={hitSlop} onPress={() => _onPress}>
+        <TouchableWithoutFeedback hitSlop={hitSlop} onPress={_onPress}>
             <View
                 shouldRasterizeIOS={true}
                 style={[getIconWrapperStyle(), styles.commonWrapperStyles]}
             >
                 <Icon
-                    name={props.icon}
+                    name={props.icon || defaultProps.icon}
                     color={props.checked ? props.iconColor : 'transparent'}
                     style={{ height: iconSize, fontSize: iconSize, backgroundColor: 'transparent' }}
                 />
